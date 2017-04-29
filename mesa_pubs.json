@@ -1,0 +1,79 @@
+[
+
+{"articles": [ [2010, 2], [2011, 1], [2014, 1], [2015, 1]],
+"total": 5, "name": "American Journal of Hematology"},
+
+{"articles": [ [2013, 1],   [2016, 1]],
+"total": 2, "name": "American Society of Clinical Oncology"},
+
+{"articles": [ [2014, 1]],
+"total": 1, "name": "Best practice & Research."},
+
+{"articles": [[2015, 1]],
+"total": 1, "name": "Biology of Blood and Marrow Transplantation"},
+
+{"articles": [[2010, 2], [2011, 2],   [2013, 2], [2014, 2], [2015, 1], [2016, 1]],
+"total": 10, "name": "Blood"},
+
+{"articles": [[2014, 1]],
+"total": 1, "name": "Blood Reviews"},
+
+{"articles": [[2014, 1]],
+"total": 1, "name": "BMC Cancer"},
+
+{"articles":  [[2012, 2],   [2013, 3], [2014, 2],  [2017, 1]],
+"total": 8, "name": "British Journal of Haematology"},
+
+{"articles": [[2011, 1],  [2015, 1], [2016, 2]],
+"total": 4, "name": "Cancer"},
+
+{"articles":  [[2012, 2],  [2016, 1],  [2017, 1]],
+"total": 4, "name": "Clinical Advances in Hematology & Oncology"},
+
+{"articles": [  [2013, 1], [2014, 1], [2015, 1]],
+"total": 3, "name": "Clinical Lymphoma, Myeloma & Leukemia"},
+
+{"articles": [ [2014, 1]],
+"total": 1, "name": "Clinical Therapeutics"},
+
+{"articles": [[2010, 2], [2011, 1], [2013, 1], [2014, 1], [2015, 1], [2016, 1]],
+"total": 7, "name": "Current Hematologic Malignancy Reports"},
+
+{"articles": [[2012, 1], [2013, 4],  [2015, 2], [2016, 5]],
+"total": 12, "name": "Haematologica"},
+
+{"articles": [[2011, 1],   [2015, 2]],
+"total": 3, "name": "Hematology. American Society of Hematology"},
+
+{"articles": [   [2015, 1]],
+"total": 1, "name": "JAMA Oncology"},
+
+{"articles": [[2011, 1], [2012, 1],  [2013, 1]],
+"total": 3, "name": "Journal of Clinical Oncology"},
+
+{"articles": [ [2016, 1]],
+"total": 1, "name": "Journal of Experimental Pharmacology"},
+
+{"articles": [[2013, 1], [2014, 1],  [2017, 1]],
+"total": 3, "name": "Journal of Hematology & Oncology"},
+
+{"articles": [[2015, 1], [2016, 1]],
+"total": 2, "name": "JNCCN"},
+
+{"articles": [[2011, 2], [2012, 1], [2013, 3], [2014, 1], [2015, 3] ],
+"total": 10, "name": "Leukemia & Lymphoma"},
+
+{"articles": [[2011, 1], [2012, 1], [2013, 1]],
+"total": 3, "name": "Leukemia Research"},
+
+
+{"articles": [  [2017, 1]],
+"total": 1, "name": "The Lancet. Haematology"},
+
+{"articles": [[2010, 1], [2012, 1]],
+"total": 2, "name": "The New England Journal of Medicine"}
+
+
+
+]
+         

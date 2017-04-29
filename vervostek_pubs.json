@@ -1,0 +1,63 @@
+[
+
+{"articles": [[2010, 1], [2016, 1]],
+"total": 2, "name": "American Journal of Clinical Pathology"},
+
+{"articles": [[2015, 1]],
+"total": 1, "name": "American Journal of Hematology"},
+
+{"articles": [[2012, 1]],
+"total": 1, "name": "American Society of Clinical Oncology"},
+
+{"articles": [[2013, 1]],
+"total": 1, "name": "Annals of Hematology"},
+
+{"articles": [[2015, 1]],
+"total": 1, "name": "Anticancer Research"},
+
+{"articles": [[2014, 1], [2015, 1]],
+"total": 2, "name": "Biology of Blood and Marrow Transplantation"},
+
+{"articles": [[2010, 1], [2011, 1], [2012, 2], [2013, 3], [2014, 1], [2015, 2], [2016, 1]],
+"total": 11, "name": "Blood"},
+
+{"articles": [ [2012, 1], [2013, 1],  [2017, 1]],
+"total": 3, "name": "British Journal of Haematology"},
+
+{"articles": [[2010, 1], [2011, 2],  [2014, 1], [2015, 2]],
+"total": 6, "name": "Cancer"},
+
+{"articles": [[2010, 1],  [2012, 2], [2013, 1]],
+"total": 3, "name": "Clinical Cancer Research"},
+
+{"articles": [ [2011, 2], [2013, 1],  [2016, 1], [2017, 1]],
+"total": 5, "name": "Expert Opinion on Investigational Drugs"},
+
+{"articles": [[2013, 3	], [2015, 3], [2016, 6]],
+"total": 12, "name": "Haematologica"},
+
+{"articles": [[2010, 2], [2011, 1], [2013, 3], [2014, 3], [2015, 3], [2016, 1]],
+"total": 13, "name": "Clinical Lymphoma, Myeloma & Leukemia"},
+
+{"articles": [[2012, 1], [2013, 5], [2014, 4], [2015, 3], [2016, 1], [2017, 1]],
+"total": 15, "name": "Leukemia research"},
+
+{"articles": [[2012, 2], [2013, 5], [2014, 2], [2015, 3], [2016, 1], [2017, 1]],
+"total": 14, "name": "Leukemia & Lymphoma"},
+
+{"articles": [[2010, 2], [2011, 1], [2013, 3], [2014, 3], [2015, 3], [2016, 1]],
+"total": 13, "name": "Clinical Lymphoma, Myeloma & Leukemia"},
+
+{"articles": [[2012, 1], [2013, 5], [2014, 2], [2015, 3], [2016, 1], [2017, 1]],
+"total": 15, "name": "Leukemia Research"},
+
+{"articles": [[2010, 1], [2011, 1], [2012, 2], [2013, 3], [2014, 1], [2015, 2], [2016, 1]],
+"total": 11, "name": "Leukemia Research"},
+
+{"articles": [[2011, 1], [2015, 2]],
+"total": 3, "name": "Future Oncology"},
+
+{"articles": [[2010, 1],  [2012, 1]],
+"total": 2, "name": "The New England Journal of Medicine"}
+
+]

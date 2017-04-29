@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<style>
+
+body{font-family: Arial, sans-serif;font-size:12px;}
+.axis path,.axis line {fill: none;stroke:#b6b6b6;shape-rendering: crispEdges;}
+.tick text{fill:#999;}
+g.journal.active{cursor:pointer;}
+text.label{font-size:12px;font-weight:bold;cursor:pointer;}
+text.value{font-size:12px;font-weight:bold;}
+
+</style>
+<body onload="load_pubs('vervostek_pubs.json', 'Srdan Verstovsek')">
+
+<div id='title'>
+   <p style="font-size:24px;font-weight:bold;">Top Three Publishing Authors in Myelofibrosis</p>
+
+   
+       <table align="left" style="margin: 0px auto;"> 
+      <tr> 
+         <td><a href="#" onclick="load_pubs('vervostek_pubs.json', 'Srdan Verstovsek')">
+              <span style="font-size:14px;font-weight:bold;">Srdan Verstovsek</span></a> <br>140 Publications
+        </td>
+      </tr> 
+        <tr><td>&nbsp;</td></tr>  
+
+         <td><a href="#" onclick="load_pubs('mesa_pubs.json', 'Ruben Mesa')">
+           <span style="font-size:14px;font-weight:bold;">Ruben Mesa</span></a><br>107 Publications
+         </td>
+      </tr> <tr><td>&nbsp;</td></tr>
+         
+         <td><a href="#" onclick="load_pubs('vannucchi_pubs.json', 'Alessandro Vannucchi')">
+           <span style="font-size:14px;font-weight:bold;">Alessandro Vannucchi</span></a> <br>100 Publications
+        </td>
+      </tr>
+
+    </table>
+</div>  
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+
+
+var margin = {top: 80, right: 400, bottom: 70, left: 50},
+	width = 350,
+	height = 450;
+
+var start_year = 2010,  
+	end_year = 2017;
+
+var c = d3.scale.category20c();
+
+var x = d3.scale.linear()
+	.range([0, width]);
+
+var xAxis = d3.svg.axis()
+	.scale(x)
+	.orient("top");
+
+var formatYears = d3.format("0000");
+xAxis.tickFormat(formatYears);
+
+var svg = d3.select("body").append("svg")
+	.attr("width", width + margin.left + margin.right)
+	.attr("height", height + margin.top + margin.bottom)
+	.style("margin-left", margin.left + "px")
+	.append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+function load_pubs(data, author) {
+  
+  //clear any existing table 
+	d3.selectAll('svg > g > *').remove();
+	
+svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline", "bold")  
+        .text(author);
+
+  
+d3.json(data, function(data) {
+	x.domain([start_year, end_year]);
+	var xScale = d3.scale.linear()
+		.domain([start_year, end_year])
+		.range([0, width]);
+
+	svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + 0 + ")")
+		.call(xAxis);
+
+	for (var j = 0; j < data.length; j++) {
+		var g = svg.append("g").attr("class","journal");
+
+		var circles = g.selectAll("circle")
+			.data(data[j]['articles'])
+			.enter()
+			.append("circle");
+
+		var text = g.selectAll("text")
+			.data(data[j]['articles'])
+			.enter()
+			.append("text");
+
+		var rScale = d3.scale.linear()
+			.domain([0, d3.max(data[j]['articles'], function(d) { return d[1]; })])
+			.range([2, 9]);
+
+		circles
+			.attr("cx", function(d, i) { return xScale(d[0]); })
+			.attr("cy", j*20+20)
+			.attr("r", function(d) { return rScale(d[1]); })
+			.style("fill", function(d) { return c(j); });
+
+		text
+			.attr("y", j*20+25)
+			.attr("x",function(d, i) { return xScale(d[0])-5; })
+			.attr("class","value")
+			.text(function(d){ return d[1]; })
+			.style("fill", function(d) { return c(j); })
+			.style("display","none");
+
+		g.append("text")
+			.attr("y", j*20+25)
+			.attr("x",width+20)
+			.attr("class","label")
+			.text(data[j]['name'])
+			.style("fill", function(d) { return c(j); })
+			.on("mouseover", mouseover)
+			.on("mouseout", mouseout);
+	};
+
+	function mouseover(p) {
+		var g = d3.select(this).node().parentNode;
+		d3.select(g).selectAll("circle").style("display","none");
+		d3.select(g).selectAll("text.value").style("display","block");
+	}
+
+	function mouseout(p) {
+		var g = d3.select(this).node().parentNode;
+		d3.select(g).selectAll("circle").style("display","block");
+		d3.select(g).selectAll("text.value").style("display","none");
+	}
+});
+
+}
+
+</script>
+
+
+    <p><b>Source</b>: PubMed</p>
+    <p><b>Timeframe</b>: 2010-2017</p>
+    
+
+        
+  </body>
+</html>
+

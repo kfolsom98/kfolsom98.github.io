@@ -1,0 +1,68 @@
+[
+
+{"articles": [[2010, 1],  [2012, 3], [2013, 1], [2014, 1],  [2016, 6]],
+"total": 12, "name": "American Journal of Hematology"},
+
+{"articles": [[2016, 1]],
+"total": 1, "name": "Annals of Hematology"},
+
+{"articles": [[2010, 1], [2016, 1]],
+"total": 2, "name": "American Journal of Clinical Pathology"},
+
+{"articles": [[2010, 1], [2011, 6], [2012, 4], [2013, 5], [2014, 8], [2015, 1], [2016, 1], [2017, 1]],
+"total": 27, "name": "Blood"},
+
+{"articles": [[2016, 1]],
+"total": 1, "name": "Cancer"},
+
+{"articles": [[2011, 1],  [2015, 1]],
+"total": 2, "name": "Cancer Research"},
+
+{"articles": [ [2013, 1] ],
+"total": 1, "name": "Clinical Lymphoma, Myeloma & Leukemia"},
+
+{"articles": [[2015, 1]],
+"total": 1, "name": "Current Hematologic Malignancy Reports"},
+
+{"articles": [[2017, 1]],
+"total": 1, "name": "European Journal of Haematology"},
+
+{"articles": [ [2014, 1]],
+"total": 5, "name": "Expert Review of hematology"},
+
+{"articles": [  [2015, 1] ],
+"total": 1, "name": "Genomics Data"},
+
+{"articles": [[2011, 1	], [2013, 2], [2015, 2], [2016, 4] ],
+"total": 9, "name": "Haematologica"},
+
+{"articles": [[2011, 1] ],
+"total": 1, "name": "Hematology. American Society of Hematology"},
+
+{"articles": [[2015, 1] ],
+"total": 1, "name": "International Journal of Cancer"},
+
+{"articles": [[2017, 1] ],
+"total": 1, "name": "International Journal of Molecular Sciences"},
+
+{"articles": [   [2015, 1]],
+"total": 1, "name": "JAMA Oncology"},
+
+{"articles": [[2011, 2], [2012, 2] ],
+"total": 4, "name": "Journal of Clinical Oncology"},
+
+{"articles": [  [2014, 1]  ],
+"total": 1, "name": "Leukemia & Lymphoma"},
+
+{"articles": [[2013, 2], [2014, 1], [2015, 1]],
+"total": 4, "name": "Leukemia Research"},
+
+
+{"articles": [[2010, 1], [2013, 2], [2015, 1]],
+"total": 4, "name": "PloS one"},
+
+{"articles": [[2010, 1], [2012, 2]],
+"total": 3, "name": "The New England Journal of Medicine"}
+
+
+]
