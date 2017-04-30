@@ -1,0 +1,161 @@
+{
+ "name": "Top Authors - Myelofibrosis",
+ "children": [
+  {
+   "name": "Srdan Verstovsek",
+   "children": [
+    {
+     "name": "Prithviraj Bose",
+     "children": [
+      {"name": "Naval Daver", "size": 3938},
+      {"name": "Naveen Pemmaraju", "size": 3812},
+      {"name": "Paolo Strati", "size": 6714},
+      {"name": "Prajwal Boddu", "size": 743},
+      {"name": "Daniel Bueso-Mendoza", "size": 743}
+     ]
+    },
+    {
+     "name": "Carlos Bueso-Ramos",
+     "children": [
+      {"name": "Yasmin Abaza", "size": 3534},
+      {"name": "Prithviraj Bose", "size": 5731},
+      {"name": "Daniel Bueso-Mendoza", "size": 7840},
+      {"name": "Cheryl Fullmer", "size": 5914},
+      {"name": "Katie Gaw", "size": 3416}
+     ]
+    },
+    {
+     "name": "Naval Daver",
+     "children": [
+      {"name": "Prithviraj Bose", "size": 7074},
+      {"name": "Naveen Pemmaraju", "size": 7074},
+      {"name": "Rita Assi", "size": 7074},
+      {"name": "Jorge Cortes", "size": 7074},
+      {"name": "Guillermo Garcia-Manero", "size": 7074}
+     ]
+    },
+    {
+     "name": "Vikas Gupta",
+     "children": [
+      {"name": "Michael Deininger", "size": 7074},
+      {"name": "Ruben Mesa", "size": 7074},
+      {"name": "Ronald Paquette", "size": 7074},
+      {"name": "Moshe Talpaz", "size": 7074},
+      {"name": "Murat Arcasoy", "size": 7074}
+     ]
+    },
+    {
+     "name": "Hagop Kantarjian",
+     "children": [
+      {"name": "Zeev Estrov", "size": 7074},
+      {"name": "Uri Rozovski", "size": 7074},
+      {"name": "Murat Arcasoy", "size": 7074},
+      {"name": "Prithviraj Bose", "size": 7074},
+      {"name": "Joseph Bove", "size": 7074}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Alessandro Vannucchi",
+   "children": [
+    {
+     "name": "Tiziano Barbui",
+     "children": [
+      {"name": "Alessandro Rambaldi", "size": 721},
+      {"name": "Giovanni Barosi", "size": 4294},
+      {"name": "Mario Cazzola", "size": 9800},
+      {"name": "Tiziana Fanelli", "size": 1314},
+      {"name": "Paola Guglielmelli", "size": 2220}
+     ]
+    },
+    {"name": "Chiara Paoli", 
+    "children": [
+      {"name": "Giovanni Barosi", "size": 721},
+      {"name": "Francisco Cervantes", "size": 4294},
+      {"name": "Francesco Passamonti", "size": 9800},
+      {"name": "Alessandro Rambaldi", "size": 1314},
+      {"name": "Bjorn Andreasson", "size": 2220}
+     ]
+    },
+    {"name": "Giovanni Barosi", 
+    "children": [
+      {"name": "Vittorio Rosti", "size": 721},
+      {"name": "Paola Guglielmelli", "size": 4294},
+      {"name": "Tiziano Barbui", "size": 9800},
+      {"name": "Margherita Massa", "size": 1314},
+      {"name": "Alessandro Rambaldi", "size": 2220}
+     ]
+     },
+    {"name": "Claire Harrison", 
+    "children": [
+      {"name": "Haifa Kathrin Al-Ali", "size": 721},
+      {"name": "Samah Alimam", "size": 4294},
+      {"name": "Susan Bewley", "size": 9800},
+      {"name": "Lucy Chappel", "size": 1314},
+      {"name": "Lynda Foltz", "size": 2220}
+     ]
+     },
+    {"name": "Alessandro Rambaldi", 
+         "children": [
+      {"name": "Tiziano Barbui", "size": 721},
+      {"name": "Mario Cazzola", "size": 4294},
+      {"name": "Giovanni Barosi", "size": 9800},
+      {"name": "Tiziana Fanelli", "size": 1314},
+      {"name": "Paola Guglielmelli", "size": 2220}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ruben Mesa",
+   "children": [
+    {"name": "Srdan Verstovsek",
+      "children": [
+      {"name": "Prithviraj Bose", "size": 3938},
+      {"name": "Carlos Bueso-Ramos", "size": 3812},
+      {"name": "Naval Daver", "size": 6714},
+      {"name": "Vikas Gupta", "size": 743},
+      {"name": "Hagop Kantarjian", "size": 743}
+     ]
+    },
+    {"name": "Michael Deininger",
+    "children": [
+      {"name": "Vikas Gupta", "size": 3938},
+      {"name": "Ruben Mesa", "size": 3812},
+      {"name": "Srdan Verstovsek", "size": 6714},
+      {"name": "Murat Arcasoy", "size": 743},
+      {"name": "Carrie Brachmann", "size": 743}
+     ]
+    },
+    {"name": "Jason Gotlib", 
+    "children": [
+      {"name": "Ravi Bhatia", "size": 3938},
+      {"name": "Srdan Verstovsek", "size": 3812},
+      {"name": "Murat Arcasoy", "size": 6714},
+      {"name": "John Catalano", "size": 743},
+      {"name": "Michael Deininger", "size": 743}
+     ]
+    },
+    {"name": "Vikas Gupta",
+     "children": [
+      {"name": "Srdan Verstovsek", "size": 3938},
+      {"name": "Michael Deininger", "size": 3812},
+      {"name": "Ruben Mesa", "size": 6714},
+      {"name": "Ronald Paquette", "size": 743},
+      {"name": "Moshe Talpaz", "size": 743}
+     ]
+    },
+    {"name": "Claire Harrison", 
+    "children": [
+      {"name": "Alessandro Vannucchi", "size": 3938},
+      {"name": "Jean-Jacques Kiladjian", "size": 3812},
+      {"name": "Ruben Mesa", "size": 6714},
+      {"name": "Bjorn Andreasson", "size": 743},
+      {"name": "Tiziano Barbui", "size": 743}
+     ]
+    }
+   ]
+  }
+ ]
+}
